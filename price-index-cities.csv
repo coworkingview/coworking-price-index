@@ -1,0 +1,9 @@
+city,slug,currency,median_per_desk_month,p25,p75,min,max,price_points,buildings_priced,buildings_listed,entry_median,source_url
+Berlin,berlin,EUR,310,240,450,70,1000,185,83,139,265,https://coworkingview.com/en/tools/price-index/berlin
+Madrid,madrid,EUR,218,150,275,85,660,21,6,30,345,https://coworkingview.com/en/tools/price-index/madrid
+Barcelona,barcelona,EUR,175,150,200,63,400,51,13,25,300,https://coworkingview.com/en/tools/price-index/barcelona
+Amsterdam,amsterdam,EUR,410,250,500,150,1350,25,7,35,345,https://coworkingview.com/en/tools/price-index/amsterdam
+Hamburg,hamburg,EUR,499,399,600,295,800,22,12,27,409,https://coworkingview.com/en/tools/price-index/hamburg
+Munich,munich,EUR,400,399,499,250,499,10,5,23,399,https://coworkingview.com/en/tools/price-index/munich
+Valencia,valencia,EUR,220,175,220,150,450,14,5,8,198,https://coworkingview.com/en/tools/price-index/valencia
+London,london,GBP,490,350,620,250,1950,52,40,105,429,https://coworkingview.com/en/tools/price-index/london

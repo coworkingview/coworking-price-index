@@ -1,0 +1,17 @@
+city,slug,currency,workspace_type,median_per_month,p25,p75,price_points,buildings
+Berlin,berlin,EUR,fix_desk,320,293,422,59,55
+Berlin,berlin,EUR,private_office,480,400,550,55,36
+Berlin,berlin,EUR,flex_desk,219,199,295,71,65
+Barcelona,barcelona,EUR,private_office,171,130,200,39,11
+Barcelona,barcelona,EUR,fix_desk,195,175,260,5,5
+Barcelona,barcelona,EUR,flex_desk,160,160,180,7,6
+Amsterdam,amsterdam,EUR,flex_desk,190,150,219,5,5
+Amsterdam,amsterdam,EUR,private_office,500,410,500,17,6
+Hamburg,hamburg,EUR,private_office,600,485,661,12,7
+Hamburg,hamburg,EUR,fix_desk,499,499,499,5,5
+Hamburg,hamburg,EUR,flex_desk,295,295,399,5,5
+Munich,munich,EUR,fix_desk,499,499,499,5,5
+Munich,munich,EUR,flex_desk,399,399,399,5,5
+Valencia,valencia,EUR,fix_desk,220,213,220,11,5
+London,london,GBP,private_office,580,490,660,35,32
+London,london,GBP,flex_desk,350,250,350,13,13

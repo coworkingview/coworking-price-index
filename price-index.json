@@ -1,0 +1,567 @@
+{
+  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) — credit \"CoworkingView\"",
+  "citation": {
+    "source": "CoworkingView",
+    "title": "Coworking Price Index (October 2026)",
+    "url": "https://coworkingview.com/en/tools/price-index",
+    "accessed": "2026-10-16",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "text": "Source: CoworkingView — Coworking Price Index (October 2026), https://coworkingview.com/en/tools/price-index. CC BY 4.0."
+  },
+  "generatedAt": "2026-10-16T10:37:42.208Z",
+  "note": "cities[].median (also canonicalMedian, label per_desk_month) is the one city desk figure: per desk, per month, every indexed type. byType.fix_desk.median is dedicated desk only. entryMedian is the cheapest advertised monthly price per building, not per desk. A private-office room total is not a per-desk price. Cities flagged lowSample are indicative only. Figures are not comparable across currencies.",
+  "cities": [
+    {
+      "city": "Berlin",
+      "slug": "berlin",
+      "currency": "EUR",
+      "median": 310,
+      "avg": 353,
+      "min": 70,
+      "max": 1000,
+      "p25": 240,
+      "p75": 450,
+      "sampleSize": 185,
+      "propertyCount": 83,
+      "listedCount": 139,
+      "byType": {
+        "fix_desk": {
+          "median": 320,
+          "avg": 350,
+          "sampleSize": 59,
+          "propertyCount": 55,
+          "p25": 293,
+          "p75": 422,
+          "p10": 249,
+          "p90": 490
+        },
+        "private_office": {
+          "median": 480,
+          "avg": 491,
+          "sampleSize": 55,
+          "propertyCount": 36,
+          "p25": 400,
+          "p75": 550,
+          "p10": 304,
+          "p90": 743
+        },
+        "flex_desk": {
+          "median": 219,
+          "avg": 250,
+          "sampleSize": 71,
+          "propertyCount": 65,
+          "p25": 199,
+          "p75": 295,
+          "p10": 149,
+          "p90": 349
+        }
+      },
+      "lowSample": false,
+      "entryMedian": 265,
+      "entryAvg": 376,
+      "entryMin": 80,
+      "entryMax": 2100,
+      "entrySampleSize": 98,
+      "entryByType": {
+        "fix_desk": {
+          "median": 330,
+          "avg": 355,
+          "min": 160,
+          "max": 680,
+          "sampleSize": 55
+        },
+        "private_office": {
+          "median": 585,
+          "avg": 797,
+          "min": 299,
+          "max": 2856,
+          "sampleSize": 48
+        },
+        "flex_desk": {
+          "median": 209,
+          "avg": 237,
+          "min": 80,
+          "max": 480,
+          "sampleSize": 65
+        }
+      },
+      "canonicalMedian": 310,
+      "canonicalLabel": "per_desk_month",
+      "canonicalField": "median",
+      "publishable": true
+    },
+    {
+      "city": "Madrid",
+      "slug": "madrid",
+      "currency": "EUR",
+      "median": 218,
+      "avg": 248,
+      "min": 85,
+      "max": 660,
+      "p25": 150,
+      "p75": 275,
+      "sampleSize": 21,
+      "propertyCount": 6,
+      "listedCount": 30,
+      "byType": {},
+      "lowSample": false,
+      "entryMedian": 345,
+      "entryAvg": 395,
+      "entryMin": 85,
+      "entryMax": 1980,
+      "entrySampleSize": 29,
+      "entryByType": {
+        "private_office": {
+          "median": 389,
+          "avg": 453,
+          "min": 129,
+          "max": 1980,
+          "sampleSize": 27
+        },
+        "fix_desk": {
+          "median": 250,
+          "avg": 243,
+          "min": 218,
+          "max": 260,
+          "sampleSize": 3
+        },
+        "flex_desk": {
+          "median": 105,
+          "avg": 107,
+          "min": 85,
+          "max": 130,
+          "sampleSize": 3
+        }
+      },
+      "canonicalMedian": 218,
+      "canonicalLabel": "per_desk_month",
+      "canonicalField": "median",
+      "publishable": true
+    },
+    {
+      "city": "Barcelona",
+      "slug": "barcelona",
+      "currency": "EUR",
+      "median": 175,
+      "avg": 185,
+      "min": 63,
+      "max": 400,
+      "p25": 150,
+      "p75": 200,
+      "sampleSize": 51,
+      "propertyCount": 13,
+      "listedCount": 25,
+      "byType": {
+        "private_office": {
+          "median": 171,
+          "avg": 180,
+          "sampleSize": 39,
+          "propertyCount": 11,
+          "p25": 130,
+          "p75": 200,
+          "p10": 119,
+          "p90": 235
+        },
+        "fix_desk": {
+          "median": 195,
+          "avg": 228,
+          "sampleSize": 5,
+          "propertyCount": 5,
+          "p25": 175,
+          "p75": 260,
+          "p10": null,
+          "p90": null
+        },
+        "flex_desk": {
+          "median": 160,
+          "avg": 181,
+          "sampleSize": 7,
+          "propertyCount": 6,
+          "p25": 160,
+          "p75": 180,
+          "p10": null,
+          "p90": null
+        }
+      },
+      "lowSample": false,
+      "entryMedian": 300,
+      "entryAvg": 414,
+      "entryMin": 150,
+      "entryMax": 1600,
+      "entrySampleSize": 22,
+      "entryByType": {
+        "private_office": {
+          "median": 353,
+          "avg": 498,
+          "min": 235,
+          "max": 1600,
+          "sampleSize": 20
+        },
+        "fix_desk": {
+          "median": 195,
+          "avg": 228,
+          "min": 175,
+          "max": 333,
+          "sampleSize": 5
+        },
+        "flex_desk": {
+          "median": 160,
+          "avg": 178,
+          "min": 150,
+          "max": 278,
+          "sampleSize": 6
+        }
+      },
+      "canonicalMedian": 175,
+      "canonicalLabel": "per_desk_month",
+      "canonicalField": "median",
+      "publishable": true
+    },
+    {
+      "city": "Amsterdam",
+      "slug": "amsterdam",
+      "currency": "EUR",
+      "median": 410,
+      "avg": 438,
+      "min": 150,
+      "max": 1350,
+      "p25": 250,
+      "p75": 500,
+      "sampleSize": 25,
+      "propertyCount": 7,
+      "listedCount": 35,
+      "byType": {
+        "flex_desk": {
+          "median": 190,
+          "avg": 211,
+          "sampleSize": 5,
+          "propertyCount": 5,
+          "p25": 150,
+          "p75": 219,
+          "p10": null,
+          "p90": null
+        },
+        "private_office": {
+          "median": 500,
+          "avg": 541,
+          "sampleSize": 17,
+          "propertyCount": 6,
+          "p25": 410,
+          "p75": 500,
+          "p10": 327,
+          "p90": 825
+        }
+      },
+      "lowSample": false,
+      "entryMedian": 345,
+      "entryAvg": 349,
+      "entryMin": 150,
+      "entryMax": 689,
+      "entrySampleSize": 31,
+      "entryByType": {
+        "private_office": {
+          "median": 359,
+          "avg": 541,
+          "min": 215,
+          "max": 2300,
+          "sampleSize": 31
+        },
+        "flex_desk": {
+          "median": 190,
+          "avg": 211,
+          "min": 150,
+          "max": 345,
+          "sampleSize": 5
+        },
+        "fix_desk": {
+          "median": 250,
+          "avg": 233,
+          "min": 200,
+          "max": 250,
+          "sampleSize": 3
+        }
+      },
+      "canonicalMedian": 410,
+      "canonicalLabel": "per_desk_month",
+      "canonicalField": "median",
+      "publishable": true
+    },
+    {
+      "city": "Hamburg",
+      "slug": "hamburg",
+      "currency": "EUR",
+      "median": 499,
+      "avg": 503,
+      "min": 295,
+      "max": 800,
+      "p25": 399,
+      "p75": 600,
+      "sampleSize": 22,
+      "propertyCount": 12,
+      "listedCount": 27,
+      "byType": {
+        "private_office": {
+          "median": 600,
+          "avg": 573,
+          "sampleSize": 12,
+          "propertyCount": 7,
+          "p25": 485,
+          "p75": 661,
+          "p10": 422,
+          "p90": 722
+        },
+        "fix_desk": {
+          "median": 499,
+          "avg": 499,
+          "sampleSize": 5,
+          "propertyCount": 5,
+          "p25": 499,
+          "p75": 499,
+          "p10": null,
+          "p90": null
+        },
+        "flex_desk": {
+          "median": 295,
+          "avg": 337,
+          "sampleSize": 5,
+          "propertyCount": 5,
+          "p25": 295,
+          "p75": 399,
+          "p10": null,
+          "p90": null
+        }
+      },
+      "lowSample": false,
+      "entryMedian": 409,
+      "entryAvg": 507,
+      "entryMin": 269,
+      "entryMax": 1199,
+      "entrySampleSize": 25,
+      "entryByType": {
+        "private_office": {
+          "median": 420,
+          "avg": 550,
+          "min": 269,
+          "max": 1199,
+          "sampleSize": 20
+        },
+        "fix_desk": {
+          "median": 499,
+          "avg": 499,
+          "min": 499,
+          "max": 499,
+          "sampleSize": 5
+        },
+        "flex_desk": {
+          "median": 295,
+          "avg": 337,
+          "min": 295,
+          "max": 399,
+          "sampleSize": 5
+        }
+      },
+      "canonicalMedian": 499,
+      "canonicalLabel": "per_desk_month",
+      "canonicalField": "median",
+      "publishable": true
+    },
+    {
+      "city": "Munich",
+      "slug": "munich",
+      "currency": "EUR",
+      "median": 400,
+      "avg": 424,
+      "min": 250,
+      "max": 499,
+      "p25": 399,
+      "p75": 499,
+      "sampleSize": 10,
+      "propertyCount": 5,
+      "listedCount": 23,
+      "byType": {
+        "fix_desk": {
+          "median": 499,
+          "avg": 479,
+          "sampleSize": 5,
+          "propertyCount": 5,
+          "p25": 499,
+          "p75": 499,
+          "p10": null,
+          "p90": null
+        },
+        "flex_desk": {
+          "median": 399,
+          "avg": 369,
+          "sampleSize": 5,
+          "propertyCount": 5,
+          "p25": 399,
+          "p75": 399,
+          "p10": null,
+          "p90": null
+        }
+      },
+      "lowSample": false,
+      "entryMedian": 399,
+      "entryAvg": 611,
+      "entryMin": 250,
+      "entryMax": 2850,
+      "entrySampleSize": 20,
+      "entryByType": {
+        "private_office": {
+          "median": 590,
+          "avg": 805,
+          "min": 279,
+          "max": 2850,
+          "sampleSize": 16
+        },
+        "fix_desk": {
+          "median": 499,
+          "avg": 479,
+          "min": 400,
+          "max": 499,
+          "sampleSize": 5
+        },
+        "flex_desk": {
+          "median": 399,
+          "avg": 369,
+          "min": 250,
+          "max": 399,
+          "sampleSize": 5
+        }
+      },
+      "canonicalMedian": 400,
+      "canonicalLabel": "per_desk_month",
+      "canonicalField": "median",
+      "publishable": true
+    },
+    {
+      "city": "Valencia",
+      "slug": "valencia",
+      "currency": "EUR",
+      "median": 220,
+      "avg": 225,
+      "min": 150,
+      "max": 450,
+      "p25": 175,
+      "p75": 220,
+      "sampleSize": 14,
+      "propertyCount": 5,
+      "listedCount": 8,
+      "byType": {
+        "fix_desk": {
+          "median": 220,
+          "avg": 239,
+          "sampleSize": 11,
+          "propertyCount": 5,
+          "p25": 213,
+          "p75": 220,
+          "p10": 205,
+          "p90": 300
+        }
+      },
+      "lowSample": false,
+      "entryMedian": 198,
+      "entryAvg": 224,
+      "entryMin": 150,
+      "entryMax": 355,
+      "entrySampleSize": 8,
+      "entryByType": {
+        "fix_desk": {
+          "median": 205,
+          "avg": 200,
+          "min": 150,
+          "max": 220,
+          "sampleSize": 5
+        },
+        "flex_desk": {
+          "median": 175,
+          "avg": 173,
+          "min": 170,
+          "max": 175,
+          "sampleSize": 3
+        },
+        "private_office": {
+          "median": 285,
+          "avg": 300,
+          "min": 259,
+          "max": 355,
+          "sampleSize": 3
+        }
+      },
+      "canonicalMedian": 220,
+      "canonicalLabel": "per_desk_month",
+      "canonicalField": "median",
+      "publishable": true
+    },
+    {
+      "city": "London",
+      "slug": "london",
+      "currency": "GBP",
+      "median": 490,
+      "avg": 551,
+      "min": 250,
+      "max": 1950,
+      "p25": 350,
+      "p75": 620,
+      "sampleSize": 52,
+      "propertyCount": 40,
+      "listedCount": 105,
+      "byType": {
+        "private_office": {
+          "median": 580,
+          "avg": 662,
+          "sampleSize": 35,
+          "propertyCount": 32,
+          "p25": 490,
+          "p75": 660,
+          "p10": 435,
+          "p90": 800
+        },
+        "flex_desk": {
+          "median": 350,
+          "avg": 313,
+          "sampleSize": 13,
+          "propertyCount": 13,
+          "p25": 250,
+          "p75": 350,
+          "p10": 250,
+          "p90": 350
+        }
+      },
+      "lowSample": false,
+      "entryMedian": 429,
+      "entryAvg": 622,
+      "entryMin": 195,
+      "entryMax": 2400,
+      "entrySampleSize": 99,
+      "entryByType": {
+        "private_office": {
+          "median": 505,
+          "avg": 667,
+          "min": 195,
+          "max": 2400,
+          "sampleSize": 95
+        },
+        "flex_desk": {
+          "median": 350,
+          "avg": 313,
+          "min": 250,
+          "max": 400,
+          "sampleSize": 13
+        },
+        "fix_desk": {
+          "median": 350,
+          "avg": 350,
+          "min": 350,
+          "max": 350,
+          "sampleSize": 4
+        }
+      },
+      "canonicalMedian": 490,
+      "canonicalLabel": "per_desk_month",
+      "canonicalField": "median",
+      "publishable": true
+    }
+  ]
+}
