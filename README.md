@@ -50,4 +50,7 @@ CC BY 4.0. Credit "CoworkingView" with a link:
 Live data with the same terms: `https://coworkingview.com/api/price-index`
 (JSON) and the MCP server `https://mcp.coworkingview.com/mcp`.
 
+Wikidata: [Q141749363](https://www.wikidata.org/wiki/Q141749363) (dataset), published by
+[CoworkingView (Q141749338)](https://www.wikidata.org/wiki/Q141749338).
+
 Regenerate: `node scripts/export-open-dataset.mjs` in the CoworkingView repo.
