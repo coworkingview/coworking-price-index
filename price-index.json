@@ -1,13 +1,14 @@
 {
-  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) — credit \"CoworkingView\"",
+  "license": "CC-BY-4.0",
+  "attribution": "Source: CoworkingView Price Index (https://www.coworkingview.com/en/tools/price-index), as of October 2026. Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Aggregated figures only; no endorsement by CoworkingView or any operator is implied.",
   "citation": {
     "source": "CoworkingView",
     "title": "Coworking Price Index (October 2026)",
-    "url": "https://coworkingview.com/en/tools/price-index",
+    "url": "https://www.coworkingview.com/en/tools/price-index",
     "accessed": "2026-10-16",
-    "license": "CC BY 4.0",
+    "license": "CC-BY-4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "text": "Source: CoworkingView — Coworking Price Index (October 2026), https://coworkingview.com/en/tools/price-index. CC BY 4.0."
+    "text": "Source: CoworkingView Price Index (https://www.coworkingview.com/en/tools/price-index), as of October 2026. Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Aggregated figures only; no endorsement by CoworkingView or any operator is implied."
   },
   "generatedAt": "2026-10-16T10:37:42.208Z",
   "note": "cities[].median (also canonicalMedian, label per_desk_month) is the one city desk figure: per desk, per month, every indexed type. byType.fix_desk.median is dedicated desk only. entryMedian is the cheapest advertised monthly price per building, not per desk. A private-office room total is not a per-desk price. Cities flagged lowSample are indicative only. Figures are not comparable across currencies.",
