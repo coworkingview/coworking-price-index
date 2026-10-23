@@ -27,6 +27,11 @@ independent platform to compare coworking spaces and flexible offices.
 | `price-index-cities.csv` | city | `median_per_desk_month`, `p25`, `p75`, `price_points`, `buildings_priced`, `source_url` |
 | `price-index-by-type.csv` | city × workspace type | `workspace_type` (`fix_desk`, `flex_desk`, `private_office`), `median_per_month`, `p25`, `p75` |
 | `price-index.json` | — | the same figures with the API's own field names and notes |
+| `berlin/berlin-office-price-index-2026-10.csv` | Berlin × workspace type × metric | median, avg, min, max, p10–p90, `sample_size`, `property_count` (v1.1, see `berlin/README.md`) |
+| `berlin/berlin-entry-price-distribution-2026-10.csv` | — | placeholder: individual entry prices are not published |
+
+`berlin/` is the detailed Berlin snapshot (October 2026, v1.1) with its own
+methodology, changelog and DOI: see [`berlin/README.md`](berlin/README.md).
 
 Prices are per desk per month in the city's currency (EUR, GBP). A private
 office price is normalised per desk.
@@ -42,13 +47,31 @@ office price is normalised per desk.
 
 ## Licence and citation
 
-CC BY 4.0. Credit "CoworkingView" with a link:
+The Price Index and catalogue data in this repository are licensed
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (full text in
+`LICENSE`). The licence covers the CoworkingView Price Index and catalogue
+data in these files: prices and price statistics, space and operator names,
+and descriptions written by CoworkingView. It does not cover, and these files
+do not contain: photos, logos, reviews or ratings, data obtained from Google,
+or any other content of coworkingview.com, its API or MCP server, which remain
+subject to their own terms (coworkingview.com/en/terms, section 9). Names are
+included for identification only; no trademark rights are licensed.
+
+Attribution — credit "CoworkingView" with a link:
 
 > Source: CoworkingView — Coworking Price Index,
 > https://coworkingview.com/en/tools/price-index. CC BY 4.0.
 
-Live data with the same terms: `https://coworkingview.com/api/price-index`
-(JSON) and the MCP server `https://mcp.coworkingview.com/mcp`.
+Cite the Berlin snapshot as:
+
+> CoworkingView (2026). Berlin Coworking & Flexible Office Price Index,
+> October 2026 (v1.1). https://coworkingview.com/de/tools/price-index/berlin.
+> DOI: 10.5281/zenodo.23441028. CC BY 4.0.
+
+The live figures are on the website, and also served by
+`https://coworkingview.com/api/price-index` (JSON) and the MCP server
+`https://mcp.coworkingview.com/mcp`; those two services are governed by the
+CoworkingView Terms, not by this licence.
 
 Wikidata: [Q141749363](https://www.wikidata.org/wiki/Q141749363) (dataset), published by
 [CoworkingView (Q141749338)](https://www.wikidata.org/wiki/Q141749338).
